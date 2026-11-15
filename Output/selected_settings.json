@@ -1,0 +1,31 @@
+{
+  "OLS": {},
+  "LASSO": {
+    "alpha": 1e-06
+  },
+  "RF": {
+    "max_depth": 5,
+    "min_samples_leaf": 50,
+    "max_features": 3,
+    "n_estimators": 300
+  },
+  "MLP": {
+    "engine": "torch",
+    "layers": [
+      32,
+      16
+    ],
+    "lr": 0.001,
+    "l1": 1e-05,
+    "batch": 1024,
+    "epochs": 10
+  },
+  "metadata": {
+    "data_sha256": "3662778d32b248c4a2d07116bc47b5fe5f7ce6ffb90ce7aedda6a606a6401e6a",
+    "protocol_sha256": "10e4f89f78a58e04a88da8b3f41f881923eae78a21daf21109db686787d3c9c8",
+    "frozen_at": "2026-11-15T13:13:05.405340+00:00",
+    "nn_validation_mse": 0.016023381329120363,
+    "rf_validation_mse": 0.0160331128386955,
+    "rf_amendment_sha256": "1ae4bf068b915bed32d6f984606f09db19823eb440c41038b6b2fce290f1a3b7"
+  }
+}
